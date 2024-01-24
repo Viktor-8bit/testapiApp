@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "5d50d9054bc6e61e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5110678a940f0e93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab30dbe1acfb73f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MVVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77efae57397c3f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin_sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14bb7334158c8bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "my_cool_API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "071419727873bfd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a33207bc70084c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ac69d410f82a89f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00b8a1488a382550",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1452968f9a94831",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "393252785dfc69f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b35b7b3e67d01315",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "435aac4b0e7fcd2c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MVVM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1303f75bb82c7016",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MVVM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "427625cc268e36ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "38b764f7aa7f58b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MVVM.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "ab30dbe1acfb73f6",
+  "lastOpenFiles": [
+    "my_cool_API.md",
+    "Kotlin_sheet.md",
+    "MVVM.md",
+    "Dependency_Injection_for_0_year_39_s_old.md"
+  ]
+}

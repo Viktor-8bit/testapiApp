@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.testapiapp.Model.Host
 import com.example.testapiapp.R
 
-class HostsAdapter(var items: List<Host>, var context: Context)
+class HostsAdapter(var items: List<Host>?, var context: Context)
     : RecyclerView.Adapter<HostsAdapter.MyViewHolder>(){
 
     class MyViewHolder(view: View): RecyclerView.ViewHolder(view) {
@@ -28,14 +28,16 @@ class HostsAdapter(var items: List<Host>, var context: Context)
 
     // должен возвращать потсчет количества элементов
     override fun getItemCount(): Int {
-        return items.count()
+        return items!!.count()
     }
 
     // укажем какие данные подставим в поля которые шашли
     // перебераем все элементы массива по позиции
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.id.text = items[position].id.toString()
-        holder.name.text = items[position].name
-        holder.status.text = items[position].status.toString()
+        holder.id.text = "ID: " + items!![position].id.toString()
+        holder.name.text = items!![position].name
+        holder.status.text = if (items!![position].status) "live ❤️" else "death 💀"
+
+
     }
 }

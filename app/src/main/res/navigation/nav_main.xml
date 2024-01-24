@@ -9,5 +9,18 @@
         android:id="@+id/list"
         android:name="com.example.testapiapp.Frames.list"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_list" />
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/list_to_hostPage"
+            app:destination="@id/hostPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/hostPage"
+        android:name="com.example.testapiapp.HostPage"
+        android:label="fragment_host_page"
+        tools:layout="@layout/fragment_host_page" >
+        <action
+            android:id="@+id/hostPage_to_list"
+            app:destination="@id/list" />
+    </fragment>
 </navigation>
