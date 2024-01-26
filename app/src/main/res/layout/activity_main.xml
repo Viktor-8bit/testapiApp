@@ -6,27 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="51dp"
-        android:layout_marginTop="2dp"
         android:layout_marginBottom="3dp"
         android:background="#007BFF"
+        android:drawableLeft="@drawable/bug"
+        android:drawablePadding="11dp"
         android:fontFamily="@font/comfortaa"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp"
         android:text="Web Spy App"
-        android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
+
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nav_host"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.002" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
+    <fragment
+        android:id="@+id/nav_host"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"

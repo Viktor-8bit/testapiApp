@@ -277,6 +277,7 @@ class ItemsAdapter(var items: List<Item>, var context: Context) :
 		val title: TextView = view.findViewById(R.id.item_list_title)  
 		val desc: TextView = view.findViewById(R.id.item_list_desc)  
 		val price: TextView = view.findViewById(R.id.item_list_price)  
+		val btn: Button = view.findViewById(R.id.item_list_button)
 	}  
 	  
 	// Создаем параметр view, какой конкретно дизайн обрабатываем  
@@ -306,6 +307,19 @@ class ItemsAdapter(var items: List<Item>, var context: Context) :
 		context.packageName  
 		)  
 		holder.image.setImageResource(imageId)  
+		
+		holder.btn.setOnClickListener {  
+			// первое контекст второе куда переходим  
+			var intent = Intent(context, ItemActivity::class.java)  
+			  
+			// передача доп данных  
+			intent.putExtra("itemTitle", items[position].title)  
+			intent.putExtra("itemText", items[position].text)  
+			intent.putExtra("itemDescription", items[position].desc)  
+			intent.putExtra("", items[position].price)  
+			intent.putExtra("imageId", imageId)  
+			context.startActivity(intent)  
+		}
 	}  
 }
 ```

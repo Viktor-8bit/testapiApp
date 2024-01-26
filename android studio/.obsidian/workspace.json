@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MVVM.md",
+                "file": "Kotlin_sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin_sheet.md",
+                "file": "navigation_component.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MVVM.md",
+                "file": "Kotlin_sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MVVM.md",
+                "file": "Kotlin_sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MVVM.md"
+                "file": "Kotlin_sheet.md"
               }
             }
           }
@@ -170,11 +170,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "ab30dbe1acfb73f6",
+  "active": "4ac69d410f82a89f",
   "lastOpenFiles": [
+    "MVVM.md",
+    "navigation_component.md",
     "my_cool_API.md",
     "Kotlin_sheet.md",
-    "MVVM.md",
     "Dependency_Injection_for_0_year_39_s_old.md"
   ]
 }
