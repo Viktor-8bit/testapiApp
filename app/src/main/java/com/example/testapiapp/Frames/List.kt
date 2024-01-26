@@ -6,17 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import android.widget.Toast
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testapiapp.Adapters.HostsAdapter
-import com.example.testapiapp.MainActivity
-import com.example.testapiapp.Model.Host
+import com.example.testapiapp.Activities.MainActivity
 import com.example.testapiapp.R
 import com.example.testapiapp.ViewModel.ListViewModel
 

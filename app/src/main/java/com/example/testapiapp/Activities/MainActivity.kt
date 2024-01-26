@@ -1,10 +1,10 @@
-package com.example.testapiapp
+package com.example.testapiapp.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
+import com.example.testapiapp.R
 
 class MainActivity : AppCompatActivity() {
 

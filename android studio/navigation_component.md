@@ -54,3 +54,25 @@ override fun onCreate(savedInstanceState: Bundle?) {
 (activity as MainActivity).navController.navigate(R.id.list_to_hostPage)
 ```
 
+Передача параметров между фреймами
+
+```kotlin
+holder.button.setOnClickListener {  
+	val bundle: Bundle = Bundle()  
+	  
+	bundle.putInt("id", items!![position].id)  
+	bundle.putString("name", items!![position].name)  
+	bundle.putBoolean("status", items!![position].status)  
+	  
+	activity.navController.navigate(R.id.list_to_hostPage, bundle)  
+}
+```
+
+Чтение параметров переданных между фреймами
+
+```kotlin
+	var id: Int? = arguments?.getInt("id")  
+	var name: String? = arguments?.getString("name")  
+	var status: Boolean? = arguments?.getBoolean("status")
+```
+

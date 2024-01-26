@@ -2,13 +2,14 @@ package com.example.testapiapp.Adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testapiapp.MainActivity
+import com.example.testapiapp.Activities.MainActivity
 import com.example.testapiapp.Model.Host
 import com.example.testapiapp.R
 
@@ -41,12 +42,18 @@ class HostsAdapter(var items: List<Host>?, var context: Context, val activity: M
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.id.text = "ID: ${items!![position].id.toString()}"
         holder.name.text = "Name: ${items!![position].name}"
-        var status : String = if (items!![position].status) "Status live ♥" else "Status death 💀"
+        var status : String = "Status ${if (items!![position].status)  "live ♥" else "death 💀"} "
         holder.status.text = status
 
-        holder.button.setOnClickListener({
-            activity.navController.navigate(R.id.list_to_hostPage)
-        })
+        holder.button.setOnClickListener {
+            val bundle: Bundle = Bundle()
+
+            bundle.putInt("id", items!![position].id)
+            bundle.putString("name", items!![position].name)
+            bundle.putBoolean("status", items!![position].status)
+
+            activity.navController.navigate(R.id.list_to_hostPage, bundle)
+        }
 
     }
 }
