@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab30dbe1acfb73f6",
+            "id": "14bb7334158c8bab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Kotlin_sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd8a00a74f92487b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "my_cool_API.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "14bb7334158c8bab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "my_cool_API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,12 +171,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "14bb7334158c8bab",
+  "active": "cd8a00a74f92487b",
   "lastOpenFiles": [
     "Kotlin_sheet.md",
+    "my_cool_API.md",
     "MVVM.md",
     "navigation_component.md",
-    "my_cool_API.md",
     "Dependency_Injection_for_0_year_39_s_old.md"
   ]
 }

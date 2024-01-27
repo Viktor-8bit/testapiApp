@@ -54,6 +54,5 @@ class HostsAdapter(var items: List<Host>?, var context: Context, val activity: M
 
             activity.navController.navigate(R.id.list_to_hostPage, bundle)
         }
-
     }
 }

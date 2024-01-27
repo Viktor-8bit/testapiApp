@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_process"
+    app:startDestination="@id/process_graphic">
+
+    <fragment
+        android:id="@+id/process_table"
+        android:name="com.example.testapiapp.Frames.process_table"
+        android:label="fragment_process_table"
+        tools:layout="@layout/fragment_process_table" >
+        <action
+            android:id="@+id/table_to_process_graphic"
+            app:destination="@id/process_graphic" />
+    </fragment>
+    <fragment
+        android:id="@+id/process_graphic"
+        android:name="com.example.testapiapp.Frames.process_graphic"
+        android:label="fragment_process_graphic"
+        tools:layout="@layout/fragment_process_graphic" >
+        <action
+            android:id="@+id/graphic_to_process_table"
+            app:destination="@id/process_table" />
+    </fragment>
+</navigation>
