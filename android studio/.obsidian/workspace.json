@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my_cool_API.md",
+                "file": "MVVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my_cool_API.md",
+                "file": "MVVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_cool_API.md"
+                "file": "MVVM.md"
               }
             }
           }
@@ -171,7 +171,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "cd8a00a74f92487b",
+  "active": "77efae57397c3f78",
   "lastOpenFiles": [
     "Kotlin_sheet.md",
     "my_cool_API.md",

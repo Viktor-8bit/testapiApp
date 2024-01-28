@@ -85,11 +85,9 @@ override fun onStart() {
 ```kotlin
 class MainFactory(val application: Application, val text: String)  
 : ViewModelProvider.AndroidViewModelFactory(application) {  
-
 	override fun <T : ViewModel> create(modelClass: Class<T>): T {  
 		return MainViewModel(application, text) as T  
 	}  
-
 }
 ```
 
